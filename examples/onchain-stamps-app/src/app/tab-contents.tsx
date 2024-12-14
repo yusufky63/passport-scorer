@@ -61,7 +61,7 @@ const AboutOnChainStamps = () => {
             <br />
             <p><b>Onchain Stamps are available to smart contracts!</b></p>
             <br />
-            <p>Onchain Stamps are created using web3 primitives, meaning you are never reliant upon Gitoin's servers for access to your data. Your apps are only available to smart contract applications when they are onchain.</p>
+            <p>Onchain Stamps are created using web3 primitives, meaning you are never reliant upon Gitcoin's servers for access to your data. Your apps are only available to smart contract applications when they are onchain.</p>
             <br />
             <p>You can migrate your Stamps onchain any time using the Passport app.</p>
             <br />
