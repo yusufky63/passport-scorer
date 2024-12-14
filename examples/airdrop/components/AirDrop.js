@@ -17,7 +17,7 @@ export default function AirDrop() {
 
   useEffect(() => {
     reset();
-    // Query the airdrop_addresses table to check if this user is already in the aidrop list.
+    // Query the airdrop_addresses table to check if this user is already in the airdrop list.
     // If they are there is no need to connect to the scorer API, we can display their passport score immediately.
     async function checkIfAddressAlreadyInAirdropList() {
       const resp = await axios.post(`/api/airdrop/check/${address}`);
